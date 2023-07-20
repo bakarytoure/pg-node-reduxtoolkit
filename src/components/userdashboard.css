@@ -1,0 +1,159 @@
+html {
+  background-color: #ca054d;
+}
+.userDashboard {
+  display: flex;
+  width: 45vw;
+  height: 70vh;
+  background: #654;
+  margin: 5rem auto 0 auto;
+  justify-content: space-between;
+  transition: all 0.5s ease-in-out;
+}
+.userDashboardOn {
+  display: flex;
+  width: 59vw;
+  height: 70vh;
+  background: #654;
+  margin: 5rem auto 0 auto;
+  transition: all 0.5s ease-in-out;
+  justify-content: space-between;
+}
+.ExpenseIncomeDashboard {
+  width: 40%;
+  background: #040f16;
+  transition: all 0.5s ease-in-out;
+}
+.ExpenseIncomeDashboardOn {
+  width: 30%;
+  background: #040f16;
+  transition: all 0.5s ease-in-out;
+}
+.IncomeExpenseContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-income {
+  background-color: #034c3c;
+}
+.btn-expense {
+  background-color: #941b0c;
+}
+.btn-reset {
+  background-color: #bf6900;
+}
+.btn-add-exp {
+  background-color: #941b0c;
+}
+.btn-add-inc {
+  background-color: #104911;
+}
+.btn-income,
+.btn-expense,
+.btn-reset,
+.btn-add-inc,
+.btn-add-exp {
+  margin: 0.9rem 0.4rem;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-size: 16px;
+  border: none;
+  box-shadow: 0 4px 5px 0 #333;
+}
+.btn-income:hover,
+.btn-expense:hover,
+.btn-reset:hover,
+.btn-add-inc-exp:hover {
+  cursor: pointer;
+}
+
+.expense-income-input {
+  text-align: center;
+}
+#expense-income {
+  height: 2rem;
+  border: none;
+}
+#expense-income:focus {
+  box-shadow: 0 4px 5px 0 #333;
+  border: none;
+}
+
+.searchContainer {
+  width: 60%;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+
+.searchContainerOn {
+  width: 40%;
+  background: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+}
+.search-input {
+  width: 15vw;
+  text-align: center;
+  height: 2.5rem;
+  border-radius: 30px;
+  border: white;
+  outline: none;
+  box-shadow: 0 2px 4px 0 #333;
+  transition: all 0.3s ease-in;
+  font-size: 16px;
+}
+.search-input:focus,
+.search-input:hover {
+  border: 1px solid white;
+  width: 20vw;
+  height: 2.5rem;
+  outline: white;
+}
+.search-container {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+.data-list {
+  margin-top: 2rem;
+}
+.data {
+  display: flex;
+  justify-content: space-between;
+  width: 12vw;
+  margin-bottom: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #365526;
+  font-size: 14px;
+  color: #fff;
+}
+button:hover {
+  cursor: pointer;
+}
+.button-up {
+  background-color: #00a6ed;
+}
+.close-btn {
+  background-color: #941b0c;
+}
+.button-up,
+.close-btn {
+  color: #fff;
+  border: none;
+  margin: 0.5rem 0;
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  box-shadow: 0 2px 4px 0 #333;
+  font-size: 16px;
+}
+.closeButtonConatainer {
+  text-align: center;
+  margin-top: 45.2vh;
+}

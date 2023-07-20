@@ -1,0 +1,56 @@
+.expense-income-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.income,
+.expense {
+  margin: 1rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.monthly-income,
+.daily-income,
+.monthly-expense,
+.daily-expense {
+  margin-bottom: 0.7rem;
+  color: #fff;
+}
+.monthly-income-value,
+.daily-income-value,
+.monthly-expense-value,
+.daily-expense-value {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.monthly-expense-value,
+.daily-expense-value {
+  border: 1px solid #bc3908;
+  background-color: #941b0c;
+  color: #fff;
+  box-shadow: 0 4px 5px 0 #ccc;
+}
+.monthly-income-value,
+.daily-income-value {
+  border: 1px solid green;
+  background-color: #053225;
+  box-shadow: 0 4px 5px 0 #ccc;
+  color: #fff;
+}
+.remaining-expense-value {
+  border: 1px solid #bc3908;
+  background-color: #941b0c;
+  color: #fff;
+  width: min-content;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 5px 0 #ccc;
+}
+.remaining-after-expense {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 1rem;
+}

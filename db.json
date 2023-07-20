@@ -1,0 +1,15 @@
+{
+ "datas":[
+  {"id":1,"name":"Eggs","price":500},
+  {"id":2,"name":"chicks","price":1000},
+  {"id":3,"name":"Rooster","price":5000},
+  {"id":4,"name":"Chicken","price":4500},
+  {"id":5,"name":"Food","price":250},
+  {"id":6,"name":"Cement","price":7500},
+  {"id":7,"name":"Iron","price":3000},
+  {"id":8,"name":"Car","price":75000},
+  {"id":9,"name":"Pepper","price":350},
+  {"id":10,"name":"Salad","price":150}
+ 
+ ]
+}

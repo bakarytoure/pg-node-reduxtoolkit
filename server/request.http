@@ -1,0 +1,2 @@
+### GET ALL EQUIPMENTS
+GET http://localhost:8000/equipment
