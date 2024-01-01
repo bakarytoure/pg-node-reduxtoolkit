@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Project Description
+## NPM. Node Package Management
+# Server Side - Client Side
+Whenever the user sends a request from the **Clien Side**, He/she sends an **HTTP GET Request** and for sure he/she will receive a response. Depending on the response type, he will receive either a successful response which coming with data of without data or with a **Not Found** response, with status code of **404**.  
