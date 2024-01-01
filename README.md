@@ -72,7 +72,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## NPM. Node Package Management
 # Server Side - Client Side
 Whenever the user sends a request from the **Clien Side**, he/she sends an **HTTP GET Request** and for sure he/she will receive a response. Depending on the response type, he will receive either a successful response which comes with data or without data, or with a **Not Found** response, with a status code of **404**.
-### Technologie.
+
+### **Technologie**
+
 # I.Back-End
 The **Server Side** will be used to generate an automatic script for creating daily, monthly, and annual reports of the **Student** activities and tasks.
 # II.Front-End
